@@ -19,6 +19,13 @@
 > [!IMPORTANT]
 > Cloudflare OS is early-access software. Pin upstream releases, review changes, and verify the trust boundary before every production upgrade.
 
+## ChatGPT / Codex in this fork
+
+This fork adds per-user ChatGPT / Codex subscription sign-in under **Add AI Model → Connect
+ChatGPT / Codex**. It keeps the existing AI Gateway models and adds a separate direct Codex route.
+See the [connection guide](cloudflare-os/docs/codex-provider.md) for setup, limits, and verification.
+The `cloudflare-os` submodule is pinned to the matching commit in the owned fork.
+
 ## Four steps
 
 1. Install the dependencies and run `pnpm exec wrangler login`.
